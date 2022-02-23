@@ -4,7 +4,6 @@ const fs = require('fs');
 //modify the AWS config object that DynamoDB will use to connect to the local instance
 AWS.config.update({
     region: "us-east-1",
-    endpoint: "http://localhost:8000"
   });
 
   // create the DynamoDB service object
